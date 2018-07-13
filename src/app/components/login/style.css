@@ -1,0 +1,99 @@
+.login_wrapper {
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spacer {
+  display: flex;
+  width: 5px;
+  flex-direction: column;
+}
+
+.form_group {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+
+.login_btn_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.login_btn {
+  display: flex;
+  flex: 1;
+  height: 45px;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.form {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #7aba55;
+  width: 100%;
+  background-color: transparent;
+  font-size: 12px;
+  outline: none;
+  boxShadow: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form_onfocus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid red;
+  width: 100%;
+  background-color: transparent;
+  font-size: 12px;
+  outline: none;
+  boxShadow: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c4c4c4;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c4c4c4;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c4c4c4;
+}
+
+#login_btn_facebook {
+  background-color: blue;
+}
+
+#login_btn_google {
+  background-color: red;
+}
+
+@media only screen and (max-width: 1550px) {
+  .login_wrapper {
+    width: 75%;
+  }
+}
